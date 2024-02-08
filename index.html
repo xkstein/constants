@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.ArOqkygC.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.MGUE7rhJ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.k512rgSQ.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.rogji80n.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.5X1g6PYS.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.1DrQBKbS.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.zN7X1OF5.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <fieldset><legend data-svelte-h="svelte-qeyyll">Choose your constants</legend> <div><input type="checkbox"> <label>natural unit of action (hbar)</label> 1.05e-34 <select><option value="J s">J s</option><option value="eV s">eV s</option></select> </div><div><input type="checkbox"> <label>vacuum electric permittivity (epsilon_0)</label> 8.85e-12 <select><option value="F m^-1">F m^-1</option></select> </div><div><input type="checkbox"> <label>Bohr radius (a_0)</label> 5.29e-11 <select><option value="m">m</option></select> </div><div><input type="checkbox"> <label>electron mass (m_e)</label> 9.11e-31 <select><option value="kg">kg</option><option value="J">J</option><option value="MeV">MeV</option><option value="u">u</option></select> </div><div><input type="checkbox"> <label>elementary charge (e_c)</label> 1.60e-19 <select><option value="C">C</option><option value="A J^-1">A J^-1</option></select> </div><div><input type="checkbox"> <label>speed of light in vacuum (c)</label> 3.00e+8 <select><option value="m s^-1">m s^-1</option></select> </div></fieldset> <select><option value="desmos" data-svelte-h="svelte-kntbxp">desmos</option><option value="python" data-svelte-h="svelte-1fk3146">python</option><option value="mathematica" data-svelte-h="svelte-h2fes2">mathematica</option></select> <pre contenteditable="true"></pre> 
+			
+			<script>
+				{
+					__sveltekit_qilklu = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.ArOqkygC.js"),
+						import("./_app/immutable/entry/app.rogji80n.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
