@@ -5,20 +5,21 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.ArOqkygC.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.MGUE7rhJ.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.k512rgSQ.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.rogji80n.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.5X1g6PYS.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.1DrQBKbS.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.zN7X1OF5.js">
+		<link href="./_app/immutable/assets/2.gOcy2Pev.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.1xl8ScBH.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.0PGz8BF9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.ChWxnFRl.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.JoTnvhd2.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.mOKwVUqW.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.8k9xawW9.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.MhkVV29B.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">  <fieldset><legend data-svelte-h="svelte-qeyyll">Choose your constants</legend> <div><input type="checkbox"> <label>natural unit of action (hbar)</label> 1.05e-34 <select><option value="J s">J s</option><option value="eV s">eV s</option></select> </div><div><input type="checkbox"> <label>vacuum electric permittivity (epsilon_0)</label> 8.85e-12 <select><option value="F m^-1">F m^-1</option></select> </div><div><input type="checkbox"> <label>Bohr radius (a_0)</label> 5.29e-11 <select><option value="m">m</option></select> </div><div><input type="checkbox"> <label>electron mass (m_e)</label> 9.11e-31 <select><option value="kg">kg</option><option value="J">J</option><option value="MeV">MeV</option><option value="u">u</option></select> </div><div><input type="checkbox"> <label>elementary charge (e_c)</label> 1.60e-19 <select><option value="C">C</option><option value="A J^-1">A J^-1</option></select> </div><div><input type="checkbox"> <label>speed of light in vacuum (c)</label> 3.00e+8 <select><option value="m s^-1">m s^-1</option></select> </div></fieldset> <select><option value="desmos" data-svelte-h="svelte-kntbxp">desmos</option><option value="python" data-svelte-h="svelte-1fk3146">python</option><option value="mathematica" data-svelte-h="svelte-h2fes2">mathematica</option></select> <pre contenteditable="true"></pre> 
+		<div style="display: contents">  <h1 class="svelte-ycvfjp" data-svelte-h="svelte-1g2vzas">Physical Constants</h1> <fieldset><legend data-svelte-h="svelte-qeyyll">Choose your constants</legend> <div class="checkbox svelte-ycvfjp"><div><input type="checkbox"> <label>natural unit of action (hbar)</label></div> <div>1.05e-34 <select><option value="J s">J s</option><option value="eV s">eV s</option></select></div> </div><div class="checkbox svelte-ycvfjp"><div><input type="checkbox"> <label>vacuum electric permittivity (epsilon_0)</label></div> <div>8.85e-12 <select><option value="F m^-1">F m^-1</option></select></div> </div><div class="checkbox svelte-ycvfjp"><div><input type="checkbox"> <label>Bohr radius (a_0)</label></div> <div>5.29e-11 <select><option value="m">m</option></select></div> </div><div class="checkbox svelte-ycvfjp"><div><input type="checkbox"> <label>electron mass (m_e)</label></div> <div>9.11e-31 <select><option value="kg">kg</option><option value="J">J</option><option value="MeV">MeV</option><option value="u">u</option></select></div> </div><div class="checkbox svelte-ycvfjp"><div><input type="checkbox"> <label>elementary charge (e_c)</label></div> <div>1.60e-19 <select><option value="C">C</option><option value="A J^-1">A J^-1</option></select></div> </div><div class="checkbox svelte-ycvfjp"><div><input type="checkbox"> <label>speed of light in vacuum (c)</label></div> <div>3.00e+8 <select><option value="m s^-1">m s^-1</option></select></div> </div></fieldset> <select><option value="desmos" data-svelte-h="svelte-kntbxp">desmos</option><option value="python" data-svelte-h="svelte-1fk3146">python</option><option value="mathematica" data-svelte-h="svelte-h2fes2">mathematica</option></select> <div><pre id="output" contenteditable="true" class="svelte-ycvfjp"></pre> </div> 
 			
 			<script>
 				{
-					__sveltekit_qilklu = {
+					__sveltekit_ak4ck9 = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
@@ -27,8 +28,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.ArOqkygC.js"),
-						import("./_app/immutable/entry/app.rogji80n.js")
+						import("./_app/immutable/entry/start.1xl8ScBH.js"),
+						import("./_app/immutable/entry/app.JoTnvhd2.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
