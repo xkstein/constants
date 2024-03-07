@@ -12,6 +12,12 @@
             "F m^-1": 8.8541878128e-12
         }
     },
+    "Vacuum magnetic permeability": {
+        "nickname": "mu_0",
+        "values": {
+          "N A^-2": 1.25663706212e-6
+        }
+    },
     "Bohr radius": {
         "nickname": "a_0",
         "values": {
