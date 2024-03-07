@@ -45,5 +45,25 @@
         "values": {
             "m s^-1": 299792458.0
         }
+    },
+    "gas constant": {
+        "nickname": "R",
+        "values": {
+            "J mol^-1 K^-1": 8.314462618,
+            "atm m^3 mol^-1 K^-1": 8.205736608095e-5
+        }
+    },
+    "Boltzmann Constant": {
+        "nickname": "k_B",
+        "values": {
+            "J K^-1": 1.380649e-23,
+            "eV K^-1": 8.617333262e-5
+        }
+    },
+    "Avogadro Constant": {
+        "nickname": "N_A",
+        "values": {
+            "mol^-1": 6.02214076e23
+        }
     }
 }

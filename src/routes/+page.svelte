@@ -31,7 +31,7 @@
 
   function style_command(nickname, value, units, style='desmos') {
     if (style == 'python') {
-      return nickname + ' = ' + value + ' % ' + units + '\n';
+      return nickname + ' = ' + value + ' # ' + units + '\n';
     } else if (style == 'mathematica') {
       nickname  = nickname.replace('_', '');
       return nickname + ' = ' + value + ';\n';
@@ -54,7 +54,7 @@
       }
       return nickname + ' = ' + value_str + '\n';
     }
-    return nickname + ' = ' + value + ' % ' + units + '\n';
+    return nickname + ' = ' + value + ' # ' + units + '\n';
   }
 
   function expo(x, f) {
