@@ -62,8 +62,6 @@
   }
 </script>
 
-<h1>Physical Constants</h1>
-
 <fieldset>
   <legend>Choose your constants</legend>
   {#each Object.entries(constants) as [name, data]}
@@ -92,45 +90,15 @@
   <option>mathematica</option>
 </select>
 
-<div>
+<fieldset style="margin-top: 1rem;">
+  <legend>Output</legend>
   <pre id="output" contenteditable='true' bind:textContent={output}></pre>
-</div>
+</fieldset>
 
 <style>
-  h1 {
-    font-family: 'Times New Roman', Times, serif;
-
-    background: linear-gradient(150deg, rgba(0,0,0,1) 25%, rgba(239,83,80,1) 30%, rgba(244,143,177,1) 35%, rgba(126,87,194,1) 40%, rgba(33,150,243,1) 45%, rgba(38,198,218,1) 50%, rgba(67,160,71,1) 55%, rgba(173,231,52,1) 60%, rgba(249,168,37,1) 65%, rgba(255,87,34,1) 70%, rgba(0,0,0,1) 75%);
-    background-size: 500% 400%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    -webkit-animation: Animation 5s linear infinite;
-    animation: Animation 20s linear infinite;
-    animation-delay: 2s;
-  }
-
-  @-webkit-keyframes Animation {
-    0% {background-position: 0% 0%}
-    25% {background-position: 100% 100%}
-    100% {background-position: 100% 100%}
-  }
-
-  @keyframes Animation {
-    0% {background-position: 0% 0%}
-    25% {background-position: 100% 100%}
-    100% {background-position: 100% 100%}
-  }
-
   #output {
     font-family: monospace;
-
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
-
-    background-color:	#2b3345;
-    color: #fff;
+    margin: 0;
   }
 
   .checkbox {
