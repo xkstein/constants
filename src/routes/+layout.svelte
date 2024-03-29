@@ -89,7 +89,7 @@
   }
 
   footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0.5rem;
     padding: 0.5rem;
