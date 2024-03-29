@@ -1,5 +1,12 @@
 {
-    "natural unit of action": {
+    "Planck constant": {
+        "nickname": "h",
+        "values": {
+            "J Hz^-1": 6.62607015e-34,
+            "eV Hz^-1": 4.135667696e-15
+        }
+    },
+    "Reduced Planck Constant": {
         "nickname": "hbar",
         "values": {
             "J s": 1.054571817e-34,
